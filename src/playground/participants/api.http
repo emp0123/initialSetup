@@ -1,0 +1,28 @@
+@baseURL=http://localhost:3001
+
+### Get all participants
+### Route /api/survey/participants/:page
+GET {{baseURL}}/api/survey/participants/3534523452345 HTTP/1.1
+content-type: application/json
+
+### Get all participants
+GET {{baseURL}}/api/survey/participants/1 HTTP/1.1
+content-type: application/json
+
+
+### Get all participants
+GET {{baseURL}}/api/survey/participants/string HTTP/1.1
+content-type: application/json
+
+### Get all participants
+GET {{baseURL}}/api/survey/participants/#$$ HTTP/1.1
+content-type: application/json
+
+
+#####
+
+GET {{baseURL}}/api/blah/blah HTTP/1.1
+content-type: application/json
+
+
+
